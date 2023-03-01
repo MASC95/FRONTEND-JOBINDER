@@ -1,0 +1,72 @@
+@import "aside";
+@import 'footer';
+@import 'header';
+@import 'variables';
+@import 'card';
+@import 'mongoArticle';
+@import 'navigation';
+@import 'listings';
+
+body{
+    background-color: #f8f8f2;
+    main{
+        background-color: #f8f8f2;
+
+        .page-container{
+            padding: 1rem;
+            margin: 0 auto;
+
+            .page__leftColumn{
+                width: 25%;
+
+            }
+
+            .page__centerColumn{
+                width: 50%;
+                .tabContainer{
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .page__rightColumn{
+                width: 25%;
+            }
+        }
+    }
+}
+
+@media (max-width: $tabletBreakpoint) {
+    body{
+        main{
+            .page-container{
+                .page__leftColumn{
+                    width: 30%;
+                }
+                .page__centerColumn{
+                    width: 70%;
+                }
+                .page__rightColumn{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $mobileBreakpoint) {
+    body{
+        main{
+            .page-container{
+                .page__leftColumn{
+                    display: none;
+                }
+                .page__centerColumn{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+

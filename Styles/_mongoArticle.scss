@@ -1,0 +1,52 @@
+.mongoHackathon{
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    border: 1px solid #ececec;
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .mongoHackathon__body{
+        h3{
+            color: #404040;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border-bottom: 1px solid rgb(245,245,245);
+            &:hover{
+                cursor: pointer;
+                color: #2f3ab2;
+            }
+        }
+        ul{
+            list-style: none;
+            li{
+                padding: 1.2rem 1rem;
+                border-bottom: 1px solid rgb(245,245,245);
+                &:hover{
+                    color: #2f3ab2;
+                    background-color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+        .btn-posts{
+            background-color: #d6d6d7;
+            font-weight: 600;
+            &:hover{
+                background-color: #bdbdbd;
+            }
+        }
+
+        .btn-project{
+            font-weight: 600;
+            background-color: #3b49df;
+            color: white;
+            &:hover{
+                background-color: #2f3ab2;
+            }
+        }
+    }
+}

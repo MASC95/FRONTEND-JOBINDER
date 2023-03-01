@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DEV Community 👨‍💻👨‍💻</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="bg-secondary bg-opacity-10">
+    <header class="m-2 row">
+      <nav class="d-flex justify-content-between px-3 col-12 col-md-8">
+        <div class="d-inline-block">
+          <a href="../index.html">
+          <img style="width: 50px;" class="d-none d-lg-inline-block" src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" alt="logo">
+        </a>
+          <h6 class="d-none d-md-inline-block">Edit Post</h6>
+        </div>
+        <div class="d-inline-block">
+          <h6 class="d-inline-block">Edit</h6>
+          <h6 class="d-inline-block ms-3">Preview</h6>
+          <h6 class="text-secondary d-inline-block fs-3 ms-3">X</h6>
+        </div>
+      </nav>
+      <div class="col-md-4"></div>
+    </header>
+    <main class="row container ms-auto me-auto">
+      <div style="height: 76vh;" class="col-12 col-md-7 border bg-white rounded" >
+        <form id="formulario">  
+        <div style="height: 35vh;" class="bg-white w-100"> 
+            <input class="mt-2 rounded" type="text" placeholder="URL imagePost" id = "Img_Post">
+          <!-- centrar el input -->
+            <input style="outline: none;" type="text" class="mt-2 fs-1 bolder border-0 bg-transparent d-flex flex-direction-column align items-center justify-content center" placeholder="New Post Title here..." id = "titlePost"  > 
+            
+          </div>
+          <div style="height: 35vh;" class="bg-white w-100">
+            <input class="mt-2 rounded" type="text" placeholder="URL imageUser" id ="UserImage">
+            <textarea style="outlinse: none; resize: none;" class="border-0 bg-transparent w-100" placeholder="write your post content here..." name="" id="content" cols="30" rows="10"></textarea>
+          </div>
+      </div>
+      <div style="height: 76vh;" class="d-none d-md-flex col-md-4 flex-column align-items-center justify-content-center">
+        <h3 class="fs-6">Writing a Great Post Title</h3>
+        <p class="small">Think of your post title as a super short (but compelling!) description — like an overview of the actual post in one short sentence.
+          Use keywords where appropriate to help ensure people can find your post by search.</p>
+      </div>
+    </main>
+    <footer class="mt-2 container">
+      <button class="btn btn-primary" id ="save">SAVE</button>
+      <button class="btn btn-light">Save <span class="d-none d-md-inline">draft</span></button>
+      <button class="btn btn-light"><img src="../Assets/Imagenes/imageFooter1.png" alt="Post Options"></button>
+      <button class="btn btn-light">Revert <span class="d-none d-md-inline">new changes</span></button>
+    </footer>
+  </form>
+    <a href="../index.html">goHome</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="../codigo/newdocumentMS.js" type="module"></script>
+  </body>
+</html>

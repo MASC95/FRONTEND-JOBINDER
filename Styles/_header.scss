@@ -1,0 +1,73 @@
+@import 'variables';
+
+body{
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        nav{
+            
+            .crayons-header__logo{
+                display: flex;
+            }
+            .header__search{
+                width: 100%;
+                    form {
+                    .input-group{
+                        border: 1px solid #ced4da;
+                        border-radius: 5px;
+                        width: 30%;
+                        input{
+                            border: none;
+                        }
+                        button{
+                            background-color: white;
+                            border: none;
+                            
+                        }
+                    }
+                    }
+            }
+        .lupita {
+            img{
+                margin-right: 15px;
+            }
+            padding: 0;
+            border: none;
+            width: 5px;
+            display: flex;
+            align-items: center;
+        }
+                
+            
+        }
+
+        .logoContainer{
+            img{
+                width: 50px;
+            }
+        }
+
+        .profilePicContainer{
+            img{
+                width: 30px;
+                border-radius: 50%;
+                border: 1px solid gray;
+            }
+        }
+    
+    }
+}
+
+@media (max-width: $tabletBreakpoint) {
+    body{
+        header{
+    
+            nav{
+                .header__search{
+                    display: none;
+                }
+        }
+    }
+    }
+}

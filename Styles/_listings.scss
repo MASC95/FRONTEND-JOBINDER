@@ -1,0 +1,64 @@
+.listings{
+    border: 1px solid #ececec;
+    margin-top: 15px;
+    padding-bottom: 0;
+    ul{
+        background-color: #fafafa;
+        border-radius: 5px;
+        padding: 0;
+        .title{
+            border: 1px solid #ececec;
+            background-color: #fafafa;
+            a{
+                text-decoration: none;
+                font-size: 14px;
+        
+            }
+            color: #404040;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        .elemento-lista{
+            border: 1px solid #ececec;
+            background-color: #fafafa;
+            display: flex;
+            flex-direction: column;
+            a{
+                color: #858585;
+                text-decoration: none;
+ 
+            }
+
+            .New{
+                color: #93561c;
+                background-color: #fcd34d;
+                width: 40px;
+                text-align: center;
+                border-radius: 5px;
+            }
+
+            &:hover{
+                background-color: white;
+                color: #4f58be;
+                cursor: pointer;
+            }
+        
+        }
+        .lista-btn{
+            text-align: center;
+            font-weight: 600;
+            border: none;
+            background-color: #fafafa;
+            a{
+                color: #414141;
+                text-decoration: none;
+                &:hover{
+                    color: #4550bb;
+                }
+            }
+        }
+    }
+    
+    background-color: #fafafa;
+    border-radius: 10px;
+}
